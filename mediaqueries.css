@@ -1,0 +1,21 @@
+@media {max-width: 992px;}
+.navbar{
+    gap: 10px;
+}
+.navbar-list{
+    position: absolute;
+    top: 65px;
+    width: 90px;
+    left: 5%;
+    right: 5%;
+    border: 2px;
+    border-top: 0;
+    flex-direction: column;
+    background-color: black;
+border-radius:0px 0px 15px 15px ;
+padding: 45px 30px;
+align-items: flex-start;
+}
+.navbar-list a{
+    font-size: 10px;
+}
