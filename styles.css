@@ -10,6 +10,7 @@
     body{
         background: var(--dark-bg);
         font-family: "inter";
+        
     
     }
 
@@ -20,6 +21,7 @@
     align-items: center;
     background-color: rgb(39, 37, 37);
     height: 150vh;
+   
     
 }
 
@@ -27,39 +29,49 @@
     max-width: 180px;
     border-radius: 1500px;
     padding: 12px 20px;
+    box-shadow: 0 8px 25px rgba(86, 43, 43, 0.4);
 }
 
 nav a{
     color: rgb(117, 128, 128);
     text-decoration: none;
 font-size: 25px;
-
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(241, 239, 239);
+    background-color:rgb(135, 28, 28);
+ 
     align-items: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   
 }
+
 .card__info{
     max-width: 200px;
     border-radius: 500px;
     padding: 15px 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+align-items: center;
+background: rgb(198, 42, 42);
 }
 ul{
     list-style:  none;
     display: flex;
     gap: 45px;
+    
+  
 }
  main{
-    background-color: rgb(138, 137, 137);
-    display: flex;
+    background-color:   rgb(135, 28, 28);
+  display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
+   
  }
 #hero{
     background:rgb(198, 42, 42);
@@ -80,9 +92,9 @@ ul{
 
 }
 a{
-    background: rgb(255, 255, 255);
+    background: rgb(196, 194, 194);
     align-items: center;
-    padding: 8px 12px;
+    padding: 2px 9px;
     border-radius: 8px;
     font-family: 'poppins' sans-serif;
      color: black;
@@ -94,7 +106,61 @@ a{
     font-size: 40px;
 padding: 8px 12px;
 border-radius: 8px;
+
 }
 footer{
-  background: rgb(51, 53, 53);
+  background:rgb(135, 28, 28);
+  color: aliceblue;
+ text-align: center;
+ padding: 30px;
+}
+.black-bg{
+    background-color:rgb(135, 28, 28);
+}
+#contact{
+    display: flex;
+   padding: 70px 30px;
+   width: 100%;
+   justify-content: space-around;
+   color: rgb(74, 107, 108); 
+   flex-wrap: wrap;
+   gap: 50;
+}
+.info-container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center; 
+gap: 30px;
+}
+.contact-info-container{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.info-column p, .info-column a{
+    display: flex;
+    align-items: center;
+}
+.info-column a{
+    display: flex;
+    
+    color: rgb(28, 41, 53);
+    padding: 2px 2px;
+    border-radius: %;
+}
+@media (max-width: 75em)  {
+    .navbar ul{
+        background: rgb(16, 5, 5);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+.section {
+    background: black;
 }
